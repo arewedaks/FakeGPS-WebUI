@@ -1,0 +1,12 @@
+com.project.fakegps:xml/network_security_config = 0x7f060000
+com.project.fakegps:bool/logsender_enabled = 0x7f010000
+com.project.fakegps:string/notification_title = 0x7f050005
+com.project.fakegps:string/notification_channel_name = 0x7f050003
+com.project.fakegps:string/msg_bind_service_failed = 0x7f050001
+com.project.fakegps:string/notification_text = 0x7f050004
+com.project.fakegps:layout/activity_main = 0x7f040000
+com.project.fakegps:string/notification_action_exit = 0x7f050002
+com.project.fakegps:string/app_name = 0x7f050000
+com.project.fakegps:id/btnStart = 0x7f030000
+com.project.fakegps:drawable/ic_androidide_log = 0x7f020000
+com.project.fakegps:id/btnStop = 0x7f030001

@@ -1,0 +1,100 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.project.fakegps"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:5:5-67
+11-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:6:5-79
+12-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:7:5-81
+13-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION" />
+14-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:8:5-79
+14-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:8:22-76
+15
+16    <queries>
+16-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:23:5-25:15
+17        <package android:name="com.itsaky.androidide" />
+17-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:24:9-57
+17-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:24:18-54
+18    </queries>
+19
+20    <uses-permission android:name="com.itsaky.androidide.permission.BIND_LOG_SERVICE" />
+20-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:28:5-89
+20-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:28:22-86
+21    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+21-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:29:5-77
+21-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:29:22-74
+22    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_DATA_SYNC" />
+22-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:30:5-87
+22-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:30:22-84
+23
+24    <application
+24-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:10:5-26:19
+25        android:allowBackup="true"
+25-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:11:9-35
+26        android:debuggable="true"
+27        android:label="@string/app_name"
+27-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:12:9-41
+28        android:supportsRtl="true"
+28-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:13:9-35
+29        android:usesCleartextTraffic="true" >
+29-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:14:9-44
+30        <activity
+30-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:16:9-23:20
+31            android:name="com.project.fakegps.MainActivity"
+31-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:17:13-41
+32            android:exported="true" >
+32-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:18:13-36
+33            <intent-filter>
+33-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:19:13-22:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:20:17-69
+34-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:20:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:21:17-77
+36-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:21:27-74
+37            </intent-filter>
+38        </activity>
+39
+40        <service
+40-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:25:9-80
+41            android:name="com.project.fakegps.MockLocationService"
+41-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:25:18-53
+42            android:exported="false" />
+42-->/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:25:54-78
+43
+44        <provider
+44-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:33:9-37:40
+45            android:name="com.itsaky.androidide.logsender.utils.LogSenderInstaller"
+45-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:34:13-84
+46            android:authorities="com.project.fakegps.logsender-installer"
+46-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:35:13-71
+47            android:enabled="@bool/logsender_enabled"
+47-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:36:13-54
+48            android:exported="false" />
+48-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:37:13-37
+49
+50        <service
+50-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:39:9-42:56
+51            android:name="com.itsaky.androidide.logsender.LogSenderService"
+51-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:40:13-76
+52            android:exported="false"
+52-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:41:13-37
+53            android:foregroundServiceType="dataSync" />
+53-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/AndroidManifest.xml:42:13-53
+54    </application>
+55
+56</manifest>

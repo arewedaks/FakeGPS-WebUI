@@ -1,0 +1,13 @@
+com.project.fakegps
+bool logsender_enabled
+drawable ic_androidide_log
+id btnStart
+id btnStop
+layout activity_main
+string app_name
+string msg_bind_service_failed
+string notification_action_exit
+string notification_channel_name
+string notification_text
+string notification_title
+xml network_security_config

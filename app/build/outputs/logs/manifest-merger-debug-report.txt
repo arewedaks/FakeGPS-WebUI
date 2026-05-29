@@ -1,0 +1,117 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:2:1-27:12
+INJECTED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:2:1-27:12
+MERGED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:18:1-45:12
+	package
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:3:5-34
+		INJECTED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:5:5-67
+MERGED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:27:5-67
+MERGED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:27:5-67
+	android:name
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:5:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:6:5-79
+	android:name
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:6:22-76
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:8:22-76
+application
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:10:5-26:19
+INJECTED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:10:5-26:19
+MERGED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:32:5-43:19
+MERGED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:32:5-43:19
+	android:extractNativeLibs
+		INJECTED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml
+	android:supportsRtl
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:13:9-35
+	android:label
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:12:9-41
+	android:allowBackup
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:11:9-35
+	android:usesCleartextTraffic
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:14:9-44
+activity#com.project.fakegps.MainActivity
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:16:9-23:20
+	android:exported
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:18:13-36
+	android:name
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:17:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:19:13-22:29
+action#android.intent.action.MAIN
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:20:17-69
+	android:name
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:20:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:21:27-74
+service#com.project.fakegps.MockLocationService
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:25:9-80
+	android:exported
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:25:54-78
+	android:name
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml:25:18-53
+uses-sdk
+INJECTED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml
+INJECTED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml
+MERGED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:21:5-44
+MERGED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:21:5-44
+	android:targetSdkVersion
+		INJECTED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/AndroidManifest.xml
+queries
+ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:23:5-25:15
+package#com.itsaky.androidide
+ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:24:9-57
+	android:name
+		ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:24:18-54
+uses-permission#com.itsaky.androidide.permission.BIND_LOG_SERVICE
+ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:28:5-89
+	android:name
+		ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:28:22-86
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:29:5-77
+	android:name
+		ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:29:22-74
+uses-permission#android.permission.FOREGROUND_SERVICE_DATA_SYNC
+ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:30:5-87
+	android:name
+		ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:30:22-84
+provider#com.itsaky.androidide.logsender.utils.LogSenderInstaller
+ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:33:9-37:40
+	android:enabled
+		ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:36:13-54
+	android:authorities
+		ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:35:13-71
+	android:exported
+		ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:34:13-84
+service#com.itsaky.androidide.logsender.LogSenderService
+ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:39:9-42:56
+	android:exported
+		ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:41:13-37
+	android:foregroundServiceType
+		ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:42:13-53
+	android:name
+		ADDED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:40:13-76

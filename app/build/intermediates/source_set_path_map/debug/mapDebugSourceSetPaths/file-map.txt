@@ -1,0 +1,8 @@
+com.project.fakegps.app-logsender-0 /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/res
+com.project.fakegps.app-pngs-1 /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/build/generated/res/pngs/debug
+com.project.fakegps.app-resValues-2 /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/build/generated/res/resValues/debug
+com.project.fakegps.app-packageDebugResources-3 /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.project.fakegps.app-packageDebugResources-4 /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.project.fakegps.app-debug-5 /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.project.fakegps.app-debug-6 /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/debug/res
+com.project.fakegps.app-main-7 /storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/res

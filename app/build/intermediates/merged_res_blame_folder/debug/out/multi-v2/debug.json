@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.project.fakegps.app-merged_res-6:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "52",
+                        "endOffsets": "64"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endColumns": "52",
+                        "endOffsets": "150"
+                    }
+                },
+                {
+                    "source": "/data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/dcb95c7a282c0423b0384fbe785e1a2a/transformed/logsender/res/values/values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,102,187,245,317,391",
+                        "endColumns": "46,84,57,71,73,64",
+                        "endOffsets": "97,182,240,312,386,451"
+                    },
+                    "to": {
+                        "startLines": "2,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,155,240,298,370,444",
+                        "endColumns": "46,84,57,71,73,64",
+                        "endOffsets": "97,235,293,365,439,504"
+                    }
+                }
+            ]
+        }
+    ]
+}
