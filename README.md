@@ -1,78 +1,61 @@
-# 📍 Remote Fake GPS System
+# FakeGPSWebUI 🌍
 
-Sistem Fake GPS (Mock Location) terpusat berbasis Android dan PHP WebUI. Project ini memungkinkan Anda untuk mengendalikan lokasi GPS dari banyak HP Android sekaligus, hanya dengan mengklik tombol melalui satu layar Dashboard (Web Server).
+FakeGPSWebUI adalah sebuah aplikasi **Hybrid Pemalsu Lokasi (Fake GPS)** tingkat lanjut yang dikendalikan penuh secara *remote* melalui Web UI interaktif. Dirancang khusus untuk kompatibel secara sempurna mulai dari **Android 10 hingga Android 16**.
 
-Sistem ini sangat cocok untuk manajemen device massal yang tersambung melalui satu jaringan Hotspot.
-
----
-
-## 🛠 Konsep & Arsitektur
-
-Sistem ini terbagi menjadi 2 komponen utama:
-1. **Server PHP (Dashboard)**: Berjalan di HP Master (Android 11) menggunakan Web Server Lokal (misal: Modul Magisk PHP8 di port 80). Bertugas menyimpan titik lokasi.
-2. **Aplikasi Android (APK)**: Berjalan di latar belakang sebagai *Service*. APK ini akan terus menyedot data koordinat dari Server PHP setiap 3 detik dan menyuntikkannya secara paksa ke dalam sistem GPS HP menggunakan API resmi `LocationManager`.
+Aplikasi ini menggunakan konsep **Dual-Mode (Hybrid APK)**. Artinya, hanya dengan 1 APK yang sama, ia dapat beroperasi sebagai aplikasi Fake GPS standar (tanpa Root), atau berevolusi menjadi modul *System-Level Spoofing* super senyap menggunakan LSPosed (bagi perangkat yang sudah Root).
 
 ---
 
-## 🚀 Panduan Instalasi (HP Master / Server Android 11)
+## ✨ Fitur Utama
 
-HP Master bertugas sebagai penyedia Hotspot, penyedia Server Web PHP, sekaligus bisa menjadi target Fake GPS.
-
-### 1. Setup Server PHP
-1. Buka folder `php_server` yang ada di dalam project ini.
-2. Copy/Pindahkan file `index.php` dan `api_lokasi.php` ke dalam *Document Root* web server Anda.
-   *(Contoh untuk modul root PHP8: Pindahkan ke direktori `/data/adb/php8/files/www/tools/fakegps/`)*
-3. Pastikan server PHP sudah berjalan normal di port `80` atau port pilihan Anda.
-
-### 2. Setup APK untuk HP Master (Localhost)
-1. Buka *source code* Android project ini.
-2. Pergi ke file `app/src/main/java/com/project/fakegps/MockLocationService.java`.
-3. Pastikan variabel `apiUrl` diisi dengan alamat localhost server PHP Anda:
-   ```java
-   private String apiUrl = "http://127.0.0.1/tools/fakegps/api_lokasi.php";
-   ```
-4. Lakukan Build APK (Task: `assembleDebug`).
-5. Instal APK hasil *build* di HP Master Android 11 tersebut.
-6. **Wajib:** Buka Pengaturan HP -> Opsi Pengembang (*Developer Options*) -> Cari "Pilih aplikasi lokasi palsu" (*Select mock location app*) -> Pilih aplikasi **FakeGPS**.
+- **Remote Control via Web UI:** Ubah koordinat, hentikan, atau mulai pemalsuan lokasi secara *real-time* langsung dari *browser* dengan antarmuka peta interaktif yang modern.
+- **Indikator Detak Jantung (Heartbeat):** Web UI dapat membaca status hidup/matinya APK di latar belakang secara *real-time*. Jika APK ditutup paksa di HP, indikator di Web UI otomatis berubah menjadi offline dalam hitungan detik.
+- **Anti-Rubber Banding:** Algoritma latar belakang (*background service*) yang menjaga agar GPS stabil dan tidak loncat-loncat kembali ke lokasi asli.
+- **Sistem Hybrid (2-in-1):**
+  - **Mode Non-Root:** Berjalan dengan mulus menggunakan opsi *Mock Location* bawaan Opsi Pengembang Android.
+  - **Mode Root (LSPosed):** Menginjeksi (*hook*) langsung ke sistem dan mematikan sinyal deteksi `isFromMockProvider`, menjadikannya **100% Anti-Tuyul / Bypass** dari aplikasi keamanan, absen, transportasi, maupun *game*.
 
 ---
 
-## 📱 Panduan Instalasi (HP Klien / Tersambung Hotspot)
+## 🚀 Panduan Instalasi (Hybrid)
 
-Jika Anda memiliki HP ke-2, ke-3, dst yang tersambung ke Hotspot HP Master, Anda bisa membuat mereka semua "berpindah lokasi" secara bersamaan meniru arahan dari WebUI.
+Instalasi akan menyesuaikan dengan tingkat keistimewaan (hak akses) sistem Android Anda.
 
-### 1. Setup APK untuk HP Klien
-1. Buka kembali file `app/src/main/java/com/project/fakegps/MockLocationService.java`.
-2. Ubah `apiUrl` menjadi IP Gateway dari Hotspot (IP milik HP Master). Biasanya `192.168.43.1` atau `192.168.x.x`. Contoh:
-   ```java
-   private String apiUrl = "http://192.168.43.1/tools/fakegps/api_lokasi.php";
-   ```
-3. Lakukan Build APK ulang untuk membuat **APK Versi Klien**.
-4. Instal APK Klien ini di semua HP target yang terhubung ke Hotspot.
-5. **Wajib:** Aktifkan izin "Aplikasi lokasi palsu" di Opsi Pengembang masing-masing HP Klien.
+### Persiapan Web UI (Wajib Dilakukan)
+1. Masukkan folder `php_server` ke dalam direktori aplikasi *Web Server* Anda di HP Android (seperti AWD Server, KSWEB, atau Termux PHP).
+2. Buka dan akses `index.php` melalui *browser* lokal Anda (contoh: `http://127.0.0.1:8080/index.php`).
+3. File pengaturan pusat `kordinat.json` akan otomatis tercipta. Anda siap mengontrol lokasi!
 
 ---
 
-## 🎮 Cara Penggunaan (WebUI)
+### Opsi 1: Instalasi Standar (Non-Root)
+Ini adalah metode termudah jika HP Anda **tidak di-root**.
 
-Setelah instalasi selesai, sistem sudah siap digunakan secara nyata!
-
-1. Nyalakan Hotspot di HP Master.
-2. Buka Browser (baik dari HP Master, HP Klien, maupun Laptop yang tersambung ke Hotspot).
-3. Akses URL Dashboard WebUI:
-   - Dari HP Master: `http://127.0.0.1/tools/fakegps/index.php`
-   - Dari HP Klien/Laptop: `http://192.168.43.1/tools/fakegps/index.php`
-4. **Cara Memalsukan Lokasi**:
-   - Buka Google Maps, cari lokasi yang Anda inginkan (misal: Monas).
-   - Salin angka *Latitude* dan *Longitude*-nya.
-   - Paste angka tersebut ke dalam kolom yang tersedia di Dashboard WebUI.
-   - Klik **Update Koordinat**.
-5. **Fitur START / STOP**:
-   - Tombol **▶ START**: Mengaktifkan penyuntikan Mock Location ke semua HP. HP akan berpindah lokasi detik itu juga.
-   - Tombol **⏹ STOP**: Mencabut hak Mock Location. Seluruh HP akan kembali membaca sensor satelit GPS asli mereka. (Aplikasi APK akan tetap diam-diam berjalan di latar belakang tanpa mengganggu GPS asli sampai tombol Start ditekan lagi).
+1. Instal APK FakeGPSWebUI di HP Anda.
+2. Buka **Pengaturan (Settings)** > **Opsi Pengembang (Developer Options)**.
+3. Cari menu **Pilih Aplikasi Lokasi Palsu (Select mock location app)**, lalu pilih **FakeGPSWebUI**.
+4. Buka aplikasi FakeGPSWebUI. (Berikan izin Lokasi jika diminta oleh sistem Android).
+5. Tekan tombol **Start** di dalam aplikasinya untuk mulai menjalankan *service* di latar belakang.
+6. Pantau dan atur lokasi Anda sesuka hati melalui Web UI!
 
 ---
 
-### 📝 Catatan Tambahan (Bypass Anti-Cheat)
-Aplikasi ini murni menggunakan fitur resmi Opsi Pengembang dari sistem Android. Jika digunakan pada aplikasi biasa seperti WhatsApp, Maps, dll, lokasi akan sukses dipalsukan. 
-Namun, jika target Anda adalah aplikasi yang memiliki proteksi Anti-Cheat ekstrim (misal Gojek Driver, Absensi, atau Pokemon Go), sistem Anti-Cheat mereka dapat mendeteksi "Opsi Pengembang" yang aktif. **Solusinya:** Gunakan *LSPosed Framework* beserta modul *Hide Mock Location* di HP target untuk menyembunyikan status "Mock Location" dari deteksi aplikasi-aplikasi ketat tersebut.
+### Opsi 2: Instalasi Tingkat Sistem (Root + LSPosed)
+Gunakan metode ini jika HP Anda sudah memiliki akses **Root (Magisk/KernelSU)** dan sudah terinstal modul **LSPosed Framework**. Mode ini sangat direkomendasikan untuk menembus aplikasi yang ketat.
+
+*Catatan: Anda **TIDAK PERLU** lagi memilih aplikasi lokasi palsu di Opsi Pengembang jika menggunakan mode ini.*
+
+1. Instal APK FakeGPSWebUI seperti biasa.
+2. Buka aplikasi **LSPosed Manager**.
+3. Masuk ke menu **Modules** dan cari modul **FakeGPSWebUI**.
+4. **Aktifkan Modul** (*Enable Module*).
+5. **Targetkan Aplikasi:** Pilih / centang aplikasi-aplikasi apa saja yang ingin Anda kelabui lokasinya (misal: Gojek, Grab, WhatsApp, atau Pokemon Go). 
+6. **Restart / Mulai Ulang HP Anda.**
+7. Setelah HP menyala, buka APK FakeGPSWebUI dan tekan **Start**. (Aplikasi kini menyebarkan lokasi palsunya secara rahasia melalui *ContentProvider*).
+8. Buka Web UI Anda, atur lokasi, dan selamat menikmati GPS siluman Anda!
+
+---
+
+## 🛠️ Informasi Kompatibilitas
+- Aplikasi ini secara spesifik ditulis dengan standar *Foreground Services* Android modern, memungkinkannya lolos dari *pemusnah aplikasi latar belakang* (*Battery Optimization*) di Android 12 hingga Android 16.
+- Menangani dengan mulus sistem *Permissions* terbaru (seperti `POST_NOTIFICATIONS`) sejak Android 13.

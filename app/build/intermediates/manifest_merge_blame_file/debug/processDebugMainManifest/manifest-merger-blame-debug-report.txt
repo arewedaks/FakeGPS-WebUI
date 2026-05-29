@@ -48,7 +48,7 @@
 25-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:30:22-84
 26
 27    <application
-27-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:14:5-38:19
+27-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:14:5-47:19
 28        android:allowBackup="true"
 28-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:15:9-35
 29        android:debuggable="true"
@@ -59,66 +59,93 @@
 32-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:17:9-35
 33        android:usesCleartextTraffic="true" >
 33-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:18:9-44
-34        <activity
-34-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:20:9-27:20
-35            android:name="com.project.fakegps.MainActivity"
-35-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:21:13-41
-36            android:exported="true" >
-36-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:22:13-36
-37            <intent-filter>
-37-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:23:13-26:29
-38                <action android:name="android.intent.action.MAIN" />
-38-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:24:17-69
-38-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:24:25-66
-39
-40                <category android:name="android.intent.category.LAUNCHER" />
-40-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:25:17-77
-40-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:25:27-74
-41            </intent-filter>
-42        </activity>
+34        <meta-data
+34-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:20:9-71
+35            android:name="xposedmodule"
+35-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:20:20-47
+36            android:value="true" />
+36-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:20:48-68
+37        <meta-data
+37-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:21:9-121
+38            android:name="xposeddescription"
+38-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:21:20-52
+39            android:value="LSPosed Module for Fake GPS System-level spoofing" />
+39-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:21:53-118
+40        <meta-data
+40-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:22:9-73
+41            android:name="xposedminversion"
+41-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:22:20-51
+42            android:value="93" />
+42-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:22:52-70
 43
-44        <service
-44-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:29:9-31:61
-45            android:name="com.project.fakegps.MockLocationService"
-45-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:29:18-53
-46            android:exported="false"
-46-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:30:18-42
-47            android:foregroundServiceType="location" />
-47-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:31:18-58
-48
-49        <receiver
-49-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:33:9-37:20
-50            android:name="com.project.fakegps.BootReceiver"
-50-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:33:19-47
-51            android:exported="true" >
-51-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:33:48-71
-52            <intent-filter>
-52-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:34:13-36:29
-53                <action android:name="android.intent.action.BOOT_COMPLETED" />
-53-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:35:17-79
-53-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:35:25-76
-54            </intent-filter>
-55        </receiver>
-56
-57        <provider
-57-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:33:9-37:40
-58            android:name="com.itsaky.androidide.logsender.utils.LogSenderInstaller"
-58-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:34:13-84
-59            android:authorities="com.project.fakegps.logsender-installer"
-59-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:35:13-71
-60            android:enabled="@bool/logsender_enabled"
-60-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:36:13-54
-61            android:exported="false" />
-61-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:37:13-37
-62
-63        <service
-63-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:39:9-42:56
-64            android:name="com.itsaky.androidide.logsender.LogSenderService"
-64-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:40:13-76
-65            android:exported="false"
-65-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:41:13-37
-66            android:foregroundServiceType="dataSync" />
-66-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:42:13-53
-67    </application>
-68
-69</manifest>
+44        <activity
+44-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:24:9-31:20
+45            android:name="com.project.fakegps.MainActivity"
+45-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:25:13-41
+46            android:exported="true" >
+46-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:26:13-36
+47            <intent-filter>
+47-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:27:13-30:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:28:17-69
+48-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:28:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:29:17-77
+50-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:29:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <service
+54-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:33:9-35:61
+55            android:name="com.project.fakegps.MockLocationService"
+55-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:33:18-53
+56            android:exported="false"
+56-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:34:18-42
+57            android:foregroundServiceType="location" />
+57-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:35:18-58
+58
+59        <receiver
+59-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:37:9-41:20
+60            android:name="com.project.fakegps.BootReceiver"
+60-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:37:19-47
+61            android:exported="true" >
+61-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:37:48-71
+62            <intent-filter>
+62-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:38:13-40:29
+63                <action android:name="android.intent.action.BOOT_COMPLETED" />
+63-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:39:17-79
+63-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:39:25-76
+64            </intent-filter>
+65        </receiver>
+66
+67        <provider
+67-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:43:9-46:39
+68            android:name="com.project.fakegps.LocationProvider"
+68-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:44:13-45
+69            android:authorities="com.project.fakegps.provider"
+69-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:45:13-63
+70            android:exported="true" />
+70-->/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:46:13-36
+71        <provider
+71-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:33:9-37:40
+72            android:name="com.itsaky.androidide.logsender.utils.LogSenderInstaller"
+72-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:34:13-84
+73            android:authorities="com.project.fakegps.logsender-installer"
+73-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:35:13-71
+74            android:enabled="@bool/logsender_enabled"
+74-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:36:13-54
+75            android:exported="false" />
+75-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:37:13-37
+76
+77        <service
+77-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:39:9-42:56
+78            android:name="com.itsaky.androidide.logsender.LogSenderService"
+78-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:40:13-76
+79            android:exported="false"
+79-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:41:13-37
+80            android:foregroundServiceType="dataSync" />
+80-->[logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:42:13-53
+81    </application>
+82
+83</manifest>

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:2:1-39:12
-INJECTED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:2:1-39:12
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:2:1-48:12
+INJECTED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:2:1-48:12
 MERGED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:18:1-45:12
 	package
 		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:3:5-34
@@ -51,8 +51,8 @@ ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/
 	android:name
 		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:12:22-74
 application
-ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:14:5-38:19
-INJECTED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:14:5-38:19
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:14:5-47:19
+INJECTED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:14:5-47:19
 MERGED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:32:5-43:19
 MERGED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/AndroidManifest.xml:32:5-43:19
 	android:extractNativeLibs
@@ -65,42 +65,68 @@ MERGED from [logsender.aar] /data/data/com.itsaky.androidide/files/home/.gradle/
 		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:15:9-35
 	android:usesCleartextTraffic
 		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:18:9-44
+meta-data#xposedmodule
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:20:9-71
+	android:value
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:20:48-68
+	android:name
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:20:20-47
+meta-data#xposeddescription
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:21:9-121
+	android:value
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:21:53-118
+	android:name
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:21:20-52
+meta-data#xposedminversion
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:22:9-73
+	android:value
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:22:52-70
+	android:name
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:22:20-51
 activity#com.project.fakegps.MainActivity
-ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:20:9-27:20
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:24:9-31:20
 	android:exported
-		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:22:13-36
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:26:13-36
 	android:name
-		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:21:13-41
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:25:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:23:13-26:29
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:27:13-30:29
 action#android.intent.action.MAIN
-ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:24:17-69
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:28:17-69
 	android:name
-		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:24:25-66
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:28:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:25:17-77
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:29:17-77
 	android:name
-		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:25:27-74
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:29:27-74
 service#com.project.fakegps.MockLocationService
-ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:29:9-31:61
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:33:9-35:61
 	android:exported
-		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:30:18-42
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:34:18-42
 	android:foregroundServiceType
-		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:31:18-58
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:35:18-58
 	android:name
-		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:29:18-53
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:33:18-53
 receiver#com.project.fakegps.BootReceiver
-ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:33:9-37:20
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:37:9-41:20
 	android:exported
-		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:33:48-71
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:37:48-71
 	android:name
-		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:33:19-47
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:37:19-47
 intent-filter#action:name:android.intent.action.BOOT_COMPLETED
-ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:34:13-36:29
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:38:13-40:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:35:17-79
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:39:17-79
 	android:name
-		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:35:25-76
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:39:25-76
+provider#com.project.fakegps.LocationProvider
+ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:43:9-46:39
+	android:authorities
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:45:13-63
+	android:exported
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:46:13-36
+	android:name
+		ADDED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml:44:13-45
 uses-sdk
 INJECTED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/AndroidManifest.xml
