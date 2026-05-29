@@ -3,6 +3,7 @@ bool logsender_enabled
 drawable ic_androidide_log
 id btnStart
 id btnStop
+id tvLog
 layout activity_main
 string app_name
 string msg_bind_service_failed

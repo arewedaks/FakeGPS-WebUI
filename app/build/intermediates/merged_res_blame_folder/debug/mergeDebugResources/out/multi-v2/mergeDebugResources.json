@@ -4,23 +4,6 @@
             "outputFile": "com.project.fakegps.app-debug-5:/values_values.arsc.flat",
             "map": [
                 {
-                    "source": "/storage/emulated/0/CodeOnTheGoProjects/FakeGPSProject/app/src/main/res/values/strings.xml",
-                    "from": {
-                        "startLines": "1",
-                        "startColumns": "4",
-                        "startOffsets": "16",
-                        "endColumns": "52",
-                        "endOffsets": "64"
-                    },
-                    "to": {
-                        "startLines": "3",
-                        "startColumns": "4",
-                        "startOffsets": "102",
-                        "endColumns": "52",
-                        "endOffsets": "150"
-                    }
-                },
-                {
                     "source": "/data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/res/values/values.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
@@ -35,6 +18,23 @@
                         "startOffsets": "55,155,240,298,370,444",
                         "endColumns": "46,84,57,71,73,64",
                         "endOffsets": "97,235,293,365,439,504"
+                    }
+                },
+                {
+                    "source": "/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "52",
+                        "endOffsets": "64"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endColumns": "52",
+                        "endOffsets": "150"
                     }
                 }
             ]

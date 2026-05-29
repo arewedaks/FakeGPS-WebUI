@@ -26,4 +26,20 @@
         android:layout_height="wrap_content"
         android:text="Hentikan Fake GPS" 
         android:layout_marginTop="16dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="24dp"
+        android:background="#EEE"
+        android:padding="8dp">
+        <TextView
+            android:id="@+id/tvLog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logs akan muncul di sini...\n"
+            android:textSize="12sp"
+            android:fontFamily="monospace"/>
+    </ScrollView>
 </LinearLayout>
