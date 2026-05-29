@@ -151,6 +151,14 @@ public class MockLocationService extends Service {
                 currentLng = obj.optDouble("lng", 106.827153);
                 shouldPushLocation = true;
                 
+                // Simpan ke SharedPreferences agar bisa dibaca oleh ContentProvider (Xposed)
+                android.content.SharedPreferences prefs = getSharedPreferences("FakeGPS_Prefs", android.content.Context.MODE_PRIVATE);
+                prefs.edit()
+                     .putLong("lat", Double.doubleToRawLongBits(currentLat))
+                     .putLong("lng", Double.doubleToRawLongBits(currentLng))
+                     .putString("status", status)
+                     .apply();
+                
             } catch (Exception e) {
                 e.printStackTrace();
                 sendLog("ERROR Jaringan/JSON: " + e.getMessage());
