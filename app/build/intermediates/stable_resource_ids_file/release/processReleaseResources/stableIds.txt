@@ -1,0 +1,6 @@
+com.project.fakegps:xml/network_security_config = 0x7f040000
+com.project.fakegps:string/app_name = 0x7f030000
+com.project.fakegps:layout/activity_main = 0x7f020000
+com.project.fakegps:id/btnStop = 0x7f010001
+com.project.fakegps:id/tvLog = 0x7f010002
+com.project.fakegps:id/btnStart = 0x7f010000

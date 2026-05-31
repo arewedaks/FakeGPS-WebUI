@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.project.fakegps.app-release-4:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "50",
+                        "endOffsets": "62"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "50",
+                        "endOffsets": "101"
+                    }
+                }
+            ]
+        }
+    ]
+}

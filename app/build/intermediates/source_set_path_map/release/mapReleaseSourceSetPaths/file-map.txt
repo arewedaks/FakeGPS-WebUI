@@ -1,0 +1,7 @@
+com.project.fakegps.app-pngs-0 /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/build/generated/res/pngs/release
+com.project.fakegps.app-resValues-1 /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/build/generated/res/resValues/release
+com.project.fakegps.app-packageReleaseResources-2 /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/build/intermediates/incremental/release/packageReleaseResources/merged.dir
+com.project.fakegps.app-packageReleaseResources-3 /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/build/intermediates/incremental/release/packageReleaseResources/stripped.dir
+com.project.fakegps.app-release-4 /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/build/intermediates/merged_res/release/mergeReleaseResources
+com.project.fakegps.app-main-5 /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/res
+com.project.fakegps.app-release-6 /storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/release/res

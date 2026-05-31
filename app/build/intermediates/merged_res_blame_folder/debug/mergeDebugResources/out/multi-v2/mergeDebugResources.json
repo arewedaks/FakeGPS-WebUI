@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.project.fakegps.app-debug-5:/values_values.arsc.flat",
+            "outputFile": "/data/data/com.itsaky.androidide/files/home/.gradle/daemon/8.14.3/com.project.fakegps.app-debug-5:/values_values.arsc.flat",
             "map": [
                 {
                     "source": "/data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/res/values/values.xml",
@@ -35,6 +35,43 @@
                         "startOffsets": "102",
                         "endColumns": "52",
                         "endOffsets": "150"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "com.project.fakegps.app-debug-5:/values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "/data/data/com.itsaky.androidide/files/home/.gradle/caches/8.14.3/transforms/352d2834a9227b8bd699eb683573288b/transformed/logsender/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,4,5,6,7,8",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,153,238,296,368,442",
+                        "endColumns": "46,84,57,71,73,64",
+                        "endOffsets": "97,233,291,363,437,502"
+                    }
+                },
+                {
+                    "source": "/storage/emulated/0/CodeOnTheGoProjects/github-awd/FakeGPS-WebUI/app/src/main/res/values/strings.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "16",
+                        "endColumns": "50",
+                        "endOffsets": "62"
+                    },
+                    "to": {
+                        "startLines": "3",
+                        "startColumns": "4",
+                        "startOffsets": "102",
+                        "endColumns": "50",
+                        "endOffsets": "148"
                     }
                 }
             ]

@@ -56,6 +56,9 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
         } else {
             registerReceiver(logReceiver, new android.content.IntentFilter("com.project.fakegps.LOG_EVENT"));
         }
+
+        // Mulai service secara otomatis saat aplikasi dibuka
+        startFakeGpsService();
     }
 
     @Override
@@ -66,17 +69,23 @@ public class MainActivity extends Activity implements android.view.View.OnClickL
         } catch (Exception e) {}
     }
 
+    private void startFakeGpsService() {
+        if (tvLog != null) {
+            tvLog.setText("Mencoba memulai service...\n" + tvLog.getText());
+        }
+        Intent serviceIntent = new Intent(MainActivity.this, MockLocationService.class);
+        if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
+            startForegroundService(serviceIntent);
+        } else {
+            startService(serviceIntent);
+        }
+        Toast.makeText(MainActivity.this, "Fake GPS Dimulai", Toast.LENGTH_SHORT).show();
+    }
+
     @Override
     public void onClick(android.view.View v) {
         if (v.getId() == R.id.btnStart) {
-            tvLog.setText("Mencoba memulai service...\n" + tvLog.getText());
-            Intent serviceIntent = new Intent(MainActivity.this, MockLocationService.class);
-            if (android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.O) {
-                startForegroundService(serviceIntent);
-            } else {
-                startService(serviceIntent);
-            }
-            Toast.makeText(MainActivity.this, "Fake GPS Dimulai", Toast.LENGTH_SHORT).show();
+            startFakeGpsService();
         } else if (v.getId() == R.id.btnStop) {
             tvLog.setText("Service dihentikan.\n" + tvLog.getText());
             stopService(new Intent(MainActivity.this, MockLocationService.class));
